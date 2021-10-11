@@ -6,6 +6,6 @@
 int main()
 {
     std::cout << "Hola!\n";
-    std::cout << "Estás viendo\n";
+    std::cout << "Estas viendo\n";
     std::cout << "una prueba.\n";
 }
