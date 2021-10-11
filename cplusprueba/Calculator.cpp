@@ -2,6 +2,7 @@
 
 double Calculator::Calculate(double x, char oper, double y)
 {
+    // CASOS
     switch (oper)
     {
     case '+':

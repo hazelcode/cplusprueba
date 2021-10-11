@@ -1,13 +1,17 @@
+// INCLUIR
 #include <iostream>
 #include "Calculator.h"
+
+// USAR
 using namespace std;
 
+// FUNCION DEL PROGRAMA
 int main()
 {
     // SIN USARSE POR LO MIENTRAS XD (Desde Lunes 11 de Octubre del 2021)
-    // std::cout << "Hola!\n";
-    // std::cout << "Estas viendo\n";
-    // std::cout << "una prueba.\n";
+    // cout << "Hola!\n";
+    // cout << "Estas viendo\n";
+    // cout << "una prueba.\n";
 
     
     // VARIABLES
@@ -16,10 +20,12 @@ int main()
     double result = 0.0;
     char oper = '+';
 
+    // DESCRIPCIÓN PARA DAR INSTRUCCION DEL USO
     cout << "CALCULADORA" << endl << endl;
     cout << "Escribe una operacion! Formatos: a+b | a-b | a*b | a/b"
         << endl;
 
+    // RECIBIR LOS RESULTADOS
     Calculator c;
     while (true)
     {
