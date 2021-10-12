@@ -21,8 +21,8 @@ int main()
     char oper = '+';
 
     // DESCRIPCIÓN PARA DAR INSTRUCCION DEL USO
-    cout << "CALCULADORA" << endl << endl;
-    cout << "Escribe una operacion! Formatos: a+b | a-b | a*b | a/b"
+    cout << "Calculadora v1.1" << endl << endl;
+    cout << "Escribe una operacion. Formatos: a+b | a-b | a*b | a/b"
         << endl;
 
     // RECIBIR LOS RESULTADOS
@@ -31,7 +31,11 @@ int main()
     {
         cin >> x >> oper >> y;
         result = c.Calculate(x, oper, y);
-        cout << "El resultado es " << result << endl;
+        cout << "R = " << result << " resuelto!" << endl;
+        if (y == 0 || x == 0)
+        {
+            cout << "Estas operando con 0." << endl;
+        }
     }
 
     return 0;
